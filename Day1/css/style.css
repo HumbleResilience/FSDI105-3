@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    padding: 0px;
+    margin:0px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+body{
+    background-color:#ffff;
+}
+
+h1{
+    text-align:center;
+    margin-top:5rem;
+}
+
+
+.registration{
+    margin-top: 3rem;
+    font-size: larger;
+    font-weight:bold;
+   
+}
+
+#logo{
+    text-decoration: none;
+    color: black;
+    margin-left:20px;
+
+}
+
+#logo:hover{
+    color:blue;
+    
+}
+
+.nav-wrapper{
+    background-color:#5EC2C0; 
+    height:5rem;
+    display:flex;
+    justify-content:space-between;
+    padding:10px;
+    text-decoration: none;
+    padding:20px;
+}
+
+.menu{
+    text-decoration: none;
+    color:black;
+    padding:10px;
+    margin-top:30px;
+    font-size:18px;
+   
+}
+
+.nav-links{
+    margin-top:3rem;
+   margin-right:20px;
+   
+}
+.menu:hover{
+    font-size:20px;
+    transition: smooth ease-in-out 3ms;
+}
+
+.control{
+    padding:2px;
+    
+}
+
+.inputs-container{
+    margin-left: 35%;
+
+}
+.inputs{
+    text-align:center;
+    padding:20px;
+    background-color:#5EC2C0;
+    width: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0,2);
+    border-radius:10px;
+    margin-bottom:10px;
+    
+}
+
+inputs:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0,2);
+}
+
+input, label{
+    display:block;
+    margin:auto;
+    padding:5px;
+    
+}
+
+
+.emailLabel{
+    margin-right:7.6rem;
+} 
+
+.passLabel{
+    margin-right:5.6rem;
+
+}
+
+.fnameLabel{
+    margin-right:5rem;
+}
+.lnameLabel{
+    margin-right:5rem;
+}
+
+.ageLabel{
+    margin-right:8.5rem;
+}
+
+.addressLabel{
+    margin-right:6.5rem;
+
+}
+.phoneLabel{
+    margin-right:3rem;
+}
+
+.payLabel{
+    
+}
+
+
+.colorLabel{
+    margin-right:8rem;
+
+}
+#txtColor{
+    display:block;
+}
+
+
+
+.registerBtn{
+    padding:5px;
+    
+}
+.registerBtn:hover{
+    background-color:dodgerblue;
+}
+
+#usersTable {
+    width: 100%;
+  }
+  
+  #usersTable,
+  th,
+  td {
+    border: 1px solid gray;
+    border-collapse:collapse;
+    text-align:center;
+    padding:10px;
+  }
+
+  th{
+      background-color:#5EC2C0;
+  }
+  td{
+      background-color:#fff;
+  }
+  
+  #usersTable{
+      width:70%;
+      margin-left:15%;
+      margin-bottom:10px;
+      
+  }
+  .error {
+    border: 1px solid red;
+  }
+  
+
+
+
+.footer{
+    background-color:#5EC2C0;
+    height:5rem;
+    position:relative;
+    bottom:0;
+    text-align:center;
+    
+}
+

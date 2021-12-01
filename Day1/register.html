@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+       
+        <div class="nav-wrapper">
+            <div class="registration">
+                <a id="logo" href="#">Registration System</a>
+            </div>
+            
+            <nav id="menu-container">
+                <div class="nav-links">
+                    <a href="index.html" class="menu">Home</a>
+                    <a href="register.html" class="menu">Register</a>
+                    <a href="users.html" class="menu">Users</a>
+                 </div>
+            </nav>
+        </div>
+
+    </header>
+
+    <main>
+        <h1>Super Registraion System</h1>
+    </main>
+    <div>
+        <!-- create a form (inputs) with the next fields: email / password / firstname / lastname / age / address / phone / payment method / color -->
+        <div class="inputs-container">
+        <div class="inputs">
+            <div class="control">
+                <div class="emailLabel">
+                     <label >Email:</label>
+                 </div>
+                <input  id="txtEmail" type = "email" placeholder="Email: ">
+            
+            </div>
+            
+            <div class="control">
+                <div class="passLabel">
+                     <label>Password:</label>
+                 </div>
+                <input id="txtPassword" type = "password" placeholder="Password: ">
+            </div>
+            <div class="control">
+                <div class="fnameLabel">
+                    <label>First Name:</label>
+                 </div>
+                 <input id="txtFirstName" type = "text" placeholder="First Name: ">
+                 
+            </div>
+            <div class="control">
+                <div class="lnameLabel">
+                    <label>Last Name:</label>
+                </div>
+                 <input id="txtLastName" type = "text" placeholder="Last Name: ">
+            </div>
+            <div class="control">
+                <div class="ageLabel">
+                    <label>Age:</label>
+                </div>
+                 <input id="txtAge" type = "number" placeholder="Age: ">
+            </div>
+            <div class="control">
+                <div class="addressLabel">
+                    <label>Address:</label>
+                </div>
+                <input id="txtAddress" type = "text" placeholder="Address: ">
+            </div>
+            <div class="control">
+                <div class="phoneLabel">
+                    <label>Phone Number:</label>
+                </div>
+                 <input id="txtPhone" type = "tel" placeholder="Phone: ">
+            </div>
+           
+
+                  <!-- <select id="txtColor"> Need to fix Color picker -->
+                    <div class="color-wrapper">
+                        <div class="colorLabel">
+                            <label>Color:</label>
+                        </div>
+                        <input id="txtColor" type = "color" placeholder="Color: ">
+                    </div>
+                <div class="control">
+                     <div class="payLabel">
+                        <label>Payment Method:</label>
+                    </div>
+
+                <div class="paydiv">
+                    <select id="selPayment">
+                        <option>PayPal</option>
+                        <option>Check</option>
+                        <option>Cash</option>
+                        <option>Video Games</option>
+                    </select>
+                
+                </div>
+            </div>
+          
+
+            <div class="control" id="registerBtn">
+                <button class="registerBtn" onclick="registerUser();" id="btnSave">Register</button>
+            </div>
+
+         </div>
+        </div>
+         
+    </div>
+
+   
+    <footer>
+        <div class="footer">
+            &copy;Eric Moore
+        </div>
+
+    </footer>
+
+   
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scripts/storeManager.js"></script>
+    <script src="scripts/register.js"></script>
+</body>
+</html>
